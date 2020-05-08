@@ -1,1 +1,11 @@
-import Product from './Product'
+import Product from './Product';
+
+const ProductList = (props) => {
+    return (
+        <div className="products">
+            {props.product.map((product, index) => <Product product={product} key={index} />)}
+        </div>
+    )
+}
+
+export default ProductList;
