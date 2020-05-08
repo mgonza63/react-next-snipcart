@@ -4,10 +4,11 @@ import '../assets/index.scss'
 const Index = (props) => {
     return (
         <div className="app">
-            <Head>
-                <title>Beautiful, high quality carpets | CarpetCity</title>
+            <head>
+                <meta name="description" content="Buy awesome t-shirts to style your body." />
+                <title>Nice, Shirts cool designs | JERS</title>
                 <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.0-beta.3/default/snipcart.css" />
-            </Head>
+            </head>
             <main className="main">
                 <ProductList products={props.products} />
             </main>
